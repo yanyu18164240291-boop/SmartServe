@@ -1,0 +1,131 @@
+.login-page {
+  height: calc(100vh - var(--header-h));
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: var(--bg-color);
+}
+
+.login-card {
+  background: var(--bg-card);
+  width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.icon-container {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.primary-bg { background: var(--primary); }
+
+.login-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--text-main);
+}
+
+.login-header p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.role-tabs {
+  display: flex;
+  width: 100%;
+  background: var(--bg-color);
+  padding: 0.3rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.role-tab {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+
+.role-tab.active {
+  background: var(--bg-card);
+  color: var(--primary);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.login-form {
+  width: 100%;
+}
+
+.form-item {
+  margin-bottom: 1.25rem;
+  width: 100%;
+}
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.label-row .input-label { margin-bottom: 0; }
+
+.forgot-pwd {
+  font-size: 0.8rem;
+  color: var(--primary);
+}
+
+.full-width { width: 100%; }
+.mt-1 { margin-top: 1rem; }
+.error-message {
+  color: #ef4444;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ai-hint-card {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  background: var(--bg-card);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  width: 280px;
+}
+.hint-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.ai-hint-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
