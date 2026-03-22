@@ -11,6 +11,8 @@ const authRoutes = require('./routes/auth');
 const knowledgeRoutes = require('./routes/knowledge');
 const chatRoutes = require('./routes/chat');
 
+app.get('/', (req, res) => res.json({ status: 'ok', message: 'SmartServe Backend is running' }));
+
 app.use('/api/auth', authRoutes);
 app.use('/api/knowledge', knowledgeRoutes);
 app.use('/api/chat', chatRoutes);
