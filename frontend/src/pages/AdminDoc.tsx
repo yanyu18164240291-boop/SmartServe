@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Database, FileText, Plus, Settings, HelpCircle, UploadCloud, File, RefreshCw, CheckCircle, AlertCircle, FileUp } from 'lucide-react';
 import api from '../api';
