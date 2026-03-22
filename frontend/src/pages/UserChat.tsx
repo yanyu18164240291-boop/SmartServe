@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { MessageSquare, Settings, Plus, Send, Zap, User as UserIcon, Bot } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { MessageSquare, Settings, Plus, Send, User as UserIcon, Bot } from 'lucide-react';
 import api from '../api';
 import './UserChat.css';
 

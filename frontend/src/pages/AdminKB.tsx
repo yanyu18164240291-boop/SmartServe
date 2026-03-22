@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate, Link, useLocation } from 'react-router-dom';
-import { Database, FileText, LayoutGrid, Plus, Search, Settings, HelpCircle, UploadCloud } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { Database, FileText, Plus, Search, Settings, HelpCircle } from 'lucide-react';
 import api from '../api';
 import './Admin.css';
 
